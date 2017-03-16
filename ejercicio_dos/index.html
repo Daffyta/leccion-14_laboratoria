@@ -9,15 +9,16 @@
     <h1>Convertidor</h1>
     <table border="1">
       <tr>
-        <th>Farenheit</th>
-        <td><input type="text" placeholder="23"></td>
-        <td><input type="button" id="farenheit" name="conversor" value="Conevntir a Celsius"></td>
+        <td>Farenheit</td>
+        <td><input type="text" placeholder="23" id="fahrenheit" required></td>
+        <td><input type="button" name="fahrenheit" value="Conevert to Celsius" onclick="convertToCelsius();"></td>
       </tr>
 
       <tr>
-        <th>Celsius</th>
-        <td><input type="text" placeholder="-5"></td>
-        <td><input type="button" id="celsius"  name="conversor" value="Conevntir a Farenheit"></td>
+        <td>Celsius</td>
+        <td><input type="text" placeholder="-5" id="celsius" required></td>
+        <td><input type="button" name="celsius" value="Conevert to Farenheit" onclick="convertToFahrenheit();"></td>
+        <!-- <td><button type="button" onclick="convert"></button></td> -->
       </tr>
     </table>
 
